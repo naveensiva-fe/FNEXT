@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: rgb(191, 226, 255);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .main {
+            
+            border-radius: 8px;
+            max-width: 500px;
+           text-align: center;
+            background-color: rgb(255, 255, 255);
+            margin: 20px auto;
+            transition: transform 0.2s;
+            padding: 10px;
+        }
+
+        img {
+          object-fit: cover;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border:5px solid  rgb(43, 129, 204);
+            border-radius: 50%;
+            transition: transform 0.3s ;
+        }
+
+        .textInMain {
+            color: #000000;
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            margin: 10px;
+            padding: 10px;
+            color: #000000;
+        }
+
+        h4 {
+            text-decoration: underline;
+            color: #000000;
+            text-align: center;
+            padding: 0px;
+        }
+
+        table {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .main:hover {
+            transform: scale(1.01);
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+    .contactLink{
+        display:inline-block;
+        margin: 8px;
+        padding: 8px;
+        border: 5px solid rgb(90, 172, 255);
+        border-radius: 5px;
+    }
+    h4{
+        color: rgb(62, 62, 62);
+    }
+        @media (max-width: 600px) {
+      .main {
+        width: 90%;
+        margin: 10px auto;
+      }
+    }
+    
+    </style>
+</head>
+
+<body>
+    <h1 style="margin: 20px 0;padding: 0px; color: rgb(62, 62, 62);;text-align: center;">Personal Profile</h1>
+    <div class="main">
+        <img src="https://media.istockphoto.com/id/1337144146/vector/default-avatar-profile-icon-vector.jpg?s=612x612&w=0&k=20&c=BIbFwuv7FxTWvh5S3vB6bkT0Qv8Vn8N5Ffseq84ClGI="
+            alt="">
+        <h4>Name
+        </h4>
+        <h1 class="textInMain">Naveen</h1>
+        <h4>Short Bio</h4>
+        <h3 class="textInMain">
+            Way to web developer|
+            Crack the erorrs|
+            Build Yourself..!
+        </h3>
+        <h4>Hobbies</h4>
+        <h3 class="textInMain">
+            playing cricket,bike riding, etc.
+        </h3>
+        <h4>Contact Info</h4>
+        <h3 class="textInMain">
+            Mob No:9786xxxx20 <br>
+            Address:Tirupur
+            <div class="contact-links">
+            <a href="https://www.linkedin.com/in/naveen-s-80a1182a4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B6%2FPOMRtATlKPVHBMQvcuyA%3D%3D" target="_blank" class="contactLink">linkedin</a>
+            <a href="https://github.com/naveensiva-fe?tab=overview&from=2025-06-01&to=2025-06-12"  class="contactLink"> GitHub</a>
+                </div>
+        </h3>
+    </div>
+</body>
+
+</html>
